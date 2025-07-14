@@ -1,0 +1,23 @@
+a = int(input("Enter first integer: "))
+b = int(input("Enter second integer: "))
+c = int(input("Enter third integer: "))
+
+d = float(input("Enter first float: "))
+e = float(input("Enter second float: "))
+f = float(input("Enter third float: "))
+
+g = str(input("Enter first string: "))
+h = str(input("Enter second string: "))
+i = str(input("Enter third string: "))
+j = str(input("Enter fourth string: "))
+
+print("You entered:")
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
+print(i)

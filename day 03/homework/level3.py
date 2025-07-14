@@ -1,0 +1,11 @@
+continent = ("Europe")
+country = ("Georgia")
+Capitalcity = ("Tbilisi")
+postalcode = (7979)
+building = (10)
+phone = (591801116)
+temperature = (15.5)
+AQI = (35.8)
+time = (14.44)
+
+print(continent + " " + country + " " + Capitalcity + " " + int(postalcode) + " " + int(building) + " " + int(phone) + " " + float(temperature) + " " + float(AQI) + " " + float(time))

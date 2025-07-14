@@ -1,0 +1,6 @@
+print(10<40)
+print(20>200)
+print(40==40)
+print(15<=30)
+print(25>=90)
+print(65!=70)
