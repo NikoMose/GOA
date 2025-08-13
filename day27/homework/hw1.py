@@ -1,0 +1,5 @@
+print("hello".upper())
+print("NIKO".lower())
+print("python".capitalize())
+print("java".find("v"))
+print("language".find("t"))
