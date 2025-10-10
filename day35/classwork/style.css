@@ -1,0 +1,19 @@
+thead tr:nth-child(1) {
+    background-color: #4A90E2; 
+    color: white; 
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+    color: black; 
+}
+
+th {
+    border: 1px solid black; 
+}
