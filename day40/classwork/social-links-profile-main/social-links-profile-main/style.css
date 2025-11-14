@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:inter;
+
+
+}
+
+body h5{
+    color: hsl(75, 94%, 57%);
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90px;
+}
+
+.main-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.card{
+    background-color: hsl(0, 0%, 20%);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 335px;
+}

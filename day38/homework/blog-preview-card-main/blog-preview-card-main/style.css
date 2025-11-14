@@ -1,0 +1,51 @@
+@import url('https://fonts.google.com/specimen/Figtree');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Figtree, sans-serif;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parent {
+    width: 355px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 9px 9px 0px 0px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+}
+
+.main-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.parent button{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    width: 85%;
+    height: 30px;
+    font-weight: 90;
+}
+
+.date{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.parent{
+    font-size: 15px;
+}
