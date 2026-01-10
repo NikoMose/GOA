@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: Overpass;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.sub{
+    color: hsl(216, 12%, 8%);
+    background-color: hsl(25, 97%, 53%);
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+h2{
+    color: hsl(0, 100%, 100%);
+}
+
+h6{
+    color: hsl(217, 12%, 63%);
+}
+
+.second{
+    background-color: hsl(213, 19%, 18%);
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    background-color: #171e27;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.third{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+.third button{
+    border: none;
+    background-color: #272e39;
+    cursor: pointer;
+}

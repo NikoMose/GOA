@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Inter;
+}
+
+h5{
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+img{
+    height: 400x;
+    width: 50%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div{
+    background-color: hsl(244, 37%, 16%);
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.section-one{
+    flex-direction: column;
+    padding: 15px;
+    padding-left: 20px;
+    margin-left: 15px;
+
+}
+
+.aaa{
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.section-two{
+    justify-content: start;
+    gap: 30px;
+}

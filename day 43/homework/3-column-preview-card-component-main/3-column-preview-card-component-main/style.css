@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:"Lexend Deca";
+  background:#f1f1f1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.container{
+  width:900px;
+}
+
+.parent{
+  display:flex;
+  border-radius:10px;
+}
+
+.card{
+  width:33.3%;
+  padding:40px;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.card h3{
+  font-size:28px;
+  letter-spacing:2px;
+  color:hsl(0, 0%, 95%);
+}
+
+.card p{
+  color:hsla(0, 0%, 100%, 0.75);
+  line-height:22px;
+}
+
+.card button{
+  border-radius:50px;
+  border:none;
+  padding:10px 20px;
+  background:white;
+  cursor:pointer;
+}
+
+
+
+.sedan{
+  background:hsl(31, 77%, 52%);
+}
+.sedan button{
+  color:hsl(31, 77%, 52%);
+}
+
+.suv{
+  background:hsl(184, 100%, 22%);
+}
+.suv button{
+  color:hsl(184, 100%, 22%);
+}
+
+.lux{
+  background:hsl(179, 100%, 13%);
+}
+.lux button{
+  color:hsl(179, 100%, 13%);
+}
+
+img{
+    width: 50px;
+    height: 30px;
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color:hsl(26, 66%, 93%);
+  font-family:'DM Sans', sans-serif;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* IMPORTANT FIX */
+.container{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+/* BALANCE CARD */
+.firstdiv{
+  background-color:hsl(10, 79%, 65%);
+  color:white;
+  padding:18px;
+  border-radius:12px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+img{
+  width:50px;
+}
+
+.six{font-size:12px;}
+.four{font-size:26px; margin-top:6px;}
+
+/* CHART CARD */
+.seconddiv{
+  background:white;
+  border-radius:12px;
+  padding:18px;
+  width:320px;
+}
+
+.lastsevenday{
+  margin-bottom:16px;
+}
+
+/* CHART */
+.huu{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  height:160px;
+}
+
+.a{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:6px;
+}
+
+.a h6{
+  font-size:12px;
+  color:gray;
+}
+
+.divmon,.divtue,.divwed,.divthu,.divfri,.divsat,.divsun{
+  width:30px;
+  border-radius:6px;
+  background:hsl(10, 79%, 65%);
+}
+
+.divmon{height:40px;}
+.divtue{height:70px;}
+.divwed{height:100px; background:hsl(186, 34%, 65%);}
+.divthu{height:65px;}
+.divfri{height:55px;}
+.divsat{height:85px;}
+.divsun{height:60px;}
+
+hr{
+  margin:16px 0;
+  opacity:.3;
+}
+
+/* BOTTOM */
+.bottom{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+}
+
+.Total{
+  font-size:12px;
+  color:gray;
+}
+
+.precent{
+  font-weight:700;
+}
+
+.right{
+  text-align:right;
+}

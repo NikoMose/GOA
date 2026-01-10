@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400vh;
+}
+
+
+div{
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:wght@100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: Outfit;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#one{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+    height: 600px;
+
+}
+
+#first{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#equilibrium{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+#maintext{
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 20px;
+    font-weight: 200;
+
+}
+
+#four{
+
+}
+
+#five{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
