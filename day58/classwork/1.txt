@@ -1,0 +1,9 @@
+toLowercase გადაიყვანს ყველა ასოს პატარად
+console.log("HELLO".toLowercase)
+
+toUppercase გადაიყვანს ყველა ასოს დიდად
+console.log("HELLO".toUppercase)
+
+trim მოაშორებს whitespaceს დასაწყისიდან და დასასრულიდან
+trimEnd მოაშორებს whitespaceს დასასრულიდან
+trimStart მოაშორებს whitespaceს დასაწყისიდან

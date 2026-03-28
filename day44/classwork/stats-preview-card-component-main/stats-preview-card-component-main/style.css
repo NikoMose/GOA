@@ -72,3 +72,25 @@ div{
     justify-content: start;
     gap: 30px;
 }
+
+@media (max-width: 844px){
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 80%;
+    }
+
+    .section-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+}

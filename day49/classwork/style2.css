@@ -1,0 +1,12 @@
+.my-div {
+    width: 200px;
+    height: 200px;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5;
+}
+
+.my-div:hover {
+    transform: translateX(300px) rotate(40deg);
+}

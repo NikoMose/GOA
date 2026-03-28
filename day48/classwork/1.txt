@@ -1,0 +1,5 @@
+background-image - background-ად აყენებს ფოტოს
+background-size - background-ის ზომას ცვლის
+background-repeat - background-ს იმეორებს ბევრჯერ
+background-position - როდესაც საიტს ვსქროლავთ backrgound არ მოძრაობს
+background-attachment - 

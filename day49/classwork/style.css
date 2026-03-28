@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.this-div {
+    width: 125px;
+    height: 125px;
+    background-image: url(image.png);
+    background-position: center;
+    transition: transform 1.0;
+}
+
+.this-div:hover {
+    transform: scale(2) rotate(80deg);
+}

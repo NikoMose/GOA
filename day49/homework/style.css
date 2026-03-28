@@ -1,0 +1,24 @@
+.rotate:hover{
+    transform: rotate(45deg);
+}
+
+.rotatey{
+    transform: rotateY(180deg);
+}
+
+.rotatex:hover{
+    transform: rotateX(90deg);
+}
+
+.scale:hover{
+    transform: scale(1.2);
+}
+
+.scaley:hover{
+    transform: skewY(7);
+}
+
+.scalex:hover{
+    transform: scaleX(1.5);
+}
+

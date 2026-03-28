@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.one {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: green;
+
+  animation-name: first;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes first {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-80px);
+  }
+}
+
+.two {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: pink;
+
+  animation-name: second;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes second {
+  from {
+    transform: translateX(0) rotate(0deg);
+  }
+  to {
+    transform: translateX(100px) rotate(45deg);
+  }
+}
+
+.three {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: blue;
+
+  animation-name: third;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes third {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.4);
+  }
+}

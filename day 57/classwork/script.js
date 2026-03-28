@@ -1,0 +1,12 @@
+// ობიექტი არის მონაცემთა ტიპი მაგალითი: console.log()
+
+console.log("Niko")
+console.log("Niko")
+console.log("Niko")
+console.log("Niko")
+console.log("Niko")
+console.log("Niko")
+console.log("Niko")
+console.log("Niko")
+console.log("Niko")
+console.log("Niko")
